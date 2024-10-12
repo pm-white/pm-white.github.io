@@ -1,0 +1,18 @@
+{
+    "projects": [
+        {
+            "name": "Bluebikes Stations Webmap",
+            "description": "A map showing real-time info for Boston's Bluebikes staitions.",
+            "img": "./images/blue-bikes-stations-thumbnail.png",
+            "url": "https://pm-white.github.io/bluebikes-stations/",
+            "tools": "JavaScript, HTML, CSS, Leaflet"
+        },
+        {
+            "name": "Personal Website",
+            "description": "The very website you are viewing.",
+            "img": "./images/personal-site-thumbnail.png",
+            "url": "https://pm-white.github.io/",
+            "tools": "JavaScript, HTML, CSS"
+        }
+    ]
+}
