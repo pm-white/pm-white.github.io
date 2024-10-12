@@ -10,15 +10,26 @@ html {
     box-sizing: border-box;
 }
   
-  *,
-  *::before,
-  *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
   }
 
-body {
-    width: 60%;
-    margin: 0 auto;
+@media screen and (min-width: 800px) {
+    body {
+        width: 1000px;
+        margin: 0 auto;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        overflow-y: scroll;
+    }
 }
 
 a {
@@ -38,6 +49,7 @@ nav {
     background-color: var(--dim-gray);
     border: 3px solid white;
     height: 3em;
+    overflow-x: auto;
 }
 
 nav a {
