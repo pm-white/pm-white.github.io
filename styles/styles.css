@@ -1,7 +1,5 @@
 :root {
-    --isabelline: #F7F4F2;
-    --main-accent: #006BA6;
-    --dim-gray: #637074;
+    --accent: #637074;
 
 }
 
@@ -9,12 +7,12 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-  
+
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-  }
+}
 
 @media screen and (min-width: 800px) {
     body {
@@ -38,22 +36,15 @@ a {
 }
 
 a:hover {
-    color: var(--dim-gray);
-    text-decoration: underline;
+    font-style: italic;
 }
 
 nav {
     display: flex;
     align-items: center;
-    font-weight: bold;
-    background-color: var(--dim-gray);
-    border: 3px solid white;
     height: 3em;
     overflow-x: auto;
-}
-
-nav a {
-    color: white;
+    border-bottom: 5px solid var(--accent);
 }
 
 nav p {
@@ -62,7 +53,7 @@ nav p {
 }
 
 nav a:hover {
-    color: white;
+    font-style: italic;
 }
 
 #projects-container {
@@ -83,8 +74,7 @@ nav a:hover {
 }
 
 article {
-    border: 3px solid white;
-    background-color: var(--isabelline);
+    border-bottom: 1px solid lightgray;
 }
 
 article a img {
@@ -92,8 +82,8 @@ article a img {
     margin: 1em;
 }
 
-article img:hover {
-    box-shadow: 2px 2px 1px var(--dim-gray);
+article:hover {
+    box-shadow: 1px 1px 1px var(--accent);
 }
 
 p {
