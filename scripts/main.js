@@ -42,7 +42,9 @@ function addProjects(projects) {
 
     // image link
     pImgLink.href = projectsObj[project].url;
-    pImgLink.target = "_blank";
+    if (projectsObj[project].name !== "Personal Website") {
+      pImgLink.target = "_blank";
+    }
     pImgLink.appendChild(pImg);
 
     // description
