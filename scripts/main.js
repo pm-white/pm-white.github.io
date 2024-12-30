@@ -31,7 +31,9 @@ function addProjects(projects) {
     // title
     pTitleLink.href = projectsObj[project].url;
     pTitleLink.textContent = projectsObj[project].name;
-    pTitleLink.target = "_blank";
+    if (projectsObj[project].name !== "Personal Website") {
+      pTitleLink.target = "_blank";
+    }
     pTitleLink.classList.add("title-link");
 
     // image
