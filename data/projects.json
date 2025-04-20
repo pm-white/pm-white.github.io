@@ -2,14 +2,14 @@
   "projects": [
     {
       "name": "James Beard Semifinalists Map",
-      "description": "A map of the 2025 semifinalists for the James Beard Foundation awards.",
+      "description": "A map of James Beard award semifinalists.",
       "img": "./images/james-beard-semifinalists.png",
       "url": "https://pm-white.github.io/where-beard/src/",
       "tools": "JavaScript, HTML, CSS, Leaflet, Python"
     },
     {
       "name": "Bluebikes Stations Webmap",
-      "description": "A map showing real-time info for Boston's Bluebikes staitions.",
+      "description": "A map showing real-time info for Boston's Bluebikes stations.",
       "img": "./images/blue-bikes-stations-thumbnail.png",
       "url": "https://pm-white.github.io/bluebikes-stations/",
       "tools": "JavaScript, HTML, CSS, Leaflet"

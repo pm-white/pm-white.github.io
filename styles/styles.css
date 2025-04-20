@@ -69,6 +69,16 @@ nav p {
 
 article {
   border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.project-image-section {
+  flex: 1;
+}
+
+.project-description-section {
+  flex: 3;
 }
 
 article a img {
@@ -87,4 +97,3 @@ p {
 h1 {
   margin: 0.25em 0 0.25em 0;
 }
-

@@ -22,6 +22,8 @@ function addProjects(projects) {
   // create an article for each project entry
   for (const project in projectsObj) {
     const article = document.createElement("article");
+    const imageSection = document.createElement("section");
+    const descriptionSection = document.createElement("section");
     const pTitleLink = document.createElement("a");
     const pImgLink = document.createElement("a");
     const pImg = document.createElement("img");
@@ -56,10 +58,16 @@ function addProjects(projects) {
     pTools.textContent = projectsObj[project].tools;
     pTools.classList.add("tools-list");
 
-    article.appendChild(pImgLink);
-    article.appendChild(pTitleLink);
-    article.appendChild(pDescription);
-    article.appendChild(pTools);
+    imageSection.classList.add("project-image-section");
+    descriptionSection.classList.add("project-description-section");
+
+    imageSection.appendChild(pImgLink);
+    descriptionSection.appendChild(pTitleLink);
+    descriptionSection.appendChild(pDescription);
+    descriptionSection.appendChild(pTools);
+
+    article.appendChild(imageSection);
+    article.appendChild(descriptionSection);
 
     projectsContainer.appendChild(article);
   }
