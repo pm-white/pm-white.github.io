@@ -15,7 +15,7 @@ html {
 
 @media screen and (min-width: 800px) {
   body {
-    width: 1000px;
+    width: 600px;
     margin: 0 auto;
     overflow-y: scroll;
   }
