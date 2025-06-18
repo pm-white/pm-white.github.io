@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "name": "Reading Tracker",
+      "description": "A simple CRUD app to track books I've read and plan to read.",
+      "img": "./images/reading-tracker.png",
+      "url": "https://reading-tracker-4u2b.onrender.com/",
+      "tools": "Express, Node, Postgres, JavaScript, CSS"
+    },
+    {
       "name": "James Beard Semifinalists Map",
       "description": "A map of James Beard award semifinalists.",
       "img": "./images/james-beard-semifinalists.png",
