@@ -4,7 +4,7 @@
       "name": "Reading Tracker",
       "description": "A simple CRUD app to track books I've read and plan to read.",
       "img": "./images/reading-tracker.png",
-      "url": "https://reading-tracker-4u2b.onrender.com/",
+      "url": "https://books-production-87ff.up.railway.app/",
       "tools": "Express, Node, Postgres, JavaScript, CSS"
     },
     {
