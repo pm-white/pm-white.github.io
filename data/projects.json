@@ -11,7 +11,7 @@
       "name": "Reading Tracker",
       "description": "A simple CRUD app to track books I've read and plan to read.",
       "img": "./images/reading-tracker.png",
-      "url": "https://books-production-87ff.up.railway.app/",
+      "url": "https://readingtracker.up.railway.app/",
       "tools": "Express, Node, Postgres, JavaScript, CSS"
     },
     {
